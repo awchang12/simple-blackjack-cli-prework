@@ -43,7 +43,8 @@ def hit?
     card_total
   elsif answer == "h"
     card_total + deal_card
-  elseif answer != "h" || 
+  elseif answer != "h" || answer != "s"
+    puts
 end
 
 def invalid_command
