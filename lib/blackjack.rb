@@ -43,6 +43,7 @@ def hit?
     card_total
   elsif answer == "h"
     card_total + deal_card
+    prompt_user
   end
 end
 
