@@ -44,7 +44,6 @@ def hit?
   elsif answer == "h"
     card_total + deal_card
   end
-  prompt_user
 end
 
 def invalid_command
