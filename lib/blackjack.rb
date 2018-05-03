@@ -41,6 +41,7 @@ def hit?
   answer = get_user_input
   if answer == "s"
     card_total
+    elsif
 end
 
 def invalid_command
