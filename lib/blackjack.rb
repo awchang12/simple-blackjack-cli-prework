@@ -39,7 +39,8 @@ def hit?
   # code hit? here
   prompt_user
   answer = get_user_input
-  if answer
+  if answer == "s"
+    card_total
 end
 
 def invalid_command
