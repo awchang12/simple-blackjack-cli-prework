@@ -9,7 +9,7 @@ def deal_card
 end
 
 def display_card_total card_total
-  print deal_card
+  print card_total
   # code #display_card_total here
 end
 
